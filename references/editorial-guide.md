@@ -8,13 +8,28 @@ Existing author wording receives proposed edits before replacement. Quotations, 
 
 Confirm what the reader needs to understand or do. Each paragraph develops one coherent point; a paragraph break marks a useful change in that development. A small subject may need one paragraph and a complex subject several. In sustained prose, check isolated one-sentence paragraphs for a real transition, emphasis, or change of speaker. Do not manufacture uniform paragraph lengths or impose an essay outline on an email.
 
+In dialogue, begin a new paragraph at each change of speaker, even for a one-word reply. Preserve any explicitly requested quotation or transcript format.
+
 Open explanatory paragraphs with their actual point, then develop it through supported facts, explanation, definition, examples, or consequences. Narrative passages can start with an actor and action. End where the substantive point or evidence finishes; add no redundant closing verdict. Give important information a useful position, often at a sentence's end, without forced inversion or opaque delayed subjects.
+
+For example, when the board's decision is the point, “The board approved the repairs after a long debate” can become “After a long debate, the board approved the repairs.” Move only the timing phrase. If the debate is the intended emphasis, keep the original order. Emphasis depends on the surrounding paragraph; the editor should not move phrases mechanically.
 
 ## Review sentence construction
 
 Use the actual actor and a direct verb. Remove empty predicates, nominalizations, and there-is openings when they obscure the action. An active-voice requirement never permits inventing an actor. Keep meaningful negatives and qualifications; positive phrasing must preserve the original logical scope.
 
 Cut words that add no information, not words the reader needs to understand the relation. Concision does not require uniformly short sentences. Combine fragmented explanations when that helps and split overloaded sentences only where the thought needs it. Vary recurring two-clause sentences and connectors according to their actual relations; preserve an effective isolated instance.
+
+### Surgical concision examples
+
+- **Remove an empty phrase:** “Because of the fact that the road flooded, we changed routes.” → “Because the road flooded, we changed routes.” Keep the stated cause; do not change the strength of the causal assertion.
+- **Let the verb carry the action:** “Nora conducted a review of the file.” → “Nora reviewed the file.” Keep the actor and object. Preserve a formal procedure name if the document uses **review** in a specialized sense.
+- **Reduce a redundant relative wrapper:** “Nora, who is the treasurer, signed the form.” → “Nora, the treasurer, signed the form.” Remove **who is** only when it adds no necessary tense, contrast, or qualification. Apply the same judgment to **which was** and similar wrappers.
+- **Combine a fragmented thought:** “The pilot lasted two weeks. During those two weeks, the team tested three routes.” → “During the two-week pilot, the team tested three routes.” Keep every substantive fact. Use this only when combining the sentences helps the thought; do not remove repetition that guides the reader.
+
+### Vary recurring sentence structures
+
+When several adjacent sentences all use two coordinated clauses, change only enough of them to remove the mechanical rhythm. For example, in a paragraph that repeatedly follows **X happened, and Y happened**, “The meeting ended, and the staff left” can become “The meeting ended. The staff left.” Other sentences may retain their original shape. Do not substitute **because**, **although**, or another more specific relation unless the source supports it. Keep an isolated clear two-clause sentence and useful grammatical parallelism.
 
 Check clause boundaries, modifier attachment, related-word proximity, parallel grammar, tense, and attribution using [grammar and form](grammar-and-form.md). Consult [usage and spelling](usage-lookup.md) for lexical decisions.
 

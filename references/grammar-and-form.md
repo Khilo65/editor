@@ -18,18 +18,37 @@ Use these checks when reviewing sentence grammar, quotations, citations, or docu
 - Repair an accidental fragment that detaches a dependent phrase or appositive from its sentence. A purposeful fragment can carry justified emphasis. Preserve an explicitly chosen fragment, judge it against the genre and neighboring sentences, and do not expand it only to regularize sentence lengths.
 - Do not introduce em dashes or clause-joining colons in running prose or table cells. Preserve syntax-required punctuation, exact quotations, titles, and other protected exceptions.
 
+### Clause and comma examples
+
+- **Change a comma splice:** “The records are incomplete, therefore we need another search.” → “The records are incomplete; therefore, we need another search.” Change the boundary punctuation; keep the stated relation.
+- **Keep a shared subject together:** “The team reviewed the file, and approved it.” → “The team reviewed the file and approved it.” The second verb does not introduce an independent clause. Remove only the unnecessary comma.
+- **Resolve meaning before changing restrictive commas:** “Drivers who hold permits may park here” selects permit holders. “The drivers, who hold permits, may park here” adds that the named group all hold permits. Both can be correct. Adding or deleting commas changes the assertion, so confirm the intended group first.
+- **Keep justified emphasis:** “We called twice. No answer.” can remain when the author deliberately uses the fragment for emphasis. Do not merge every fragment automatically.
+
 ## Modifier placement and clear reference
 
 - Make the grammatical subject perform or bear the action or quality in an introductory participial phrase, adjective phrase, or related construction. If it does not, move the modifier beside its actual subject or name the supported actor in a clause. Never infer an unknown actor.
 - Keep related words close. Remove needless interruptions between subject and main verb, retaining clear apposition, relative clauses, and deliberate periodic structure when they help the reader.
-- Place a relative clause next to its intended antecedent. Resolve competing nouns explicitly when proximity alone leaves doubt.
+- Place a relative clause next to its intended antecedent. A clear appositive may intervene when it names the same person or thing and creates no ambiguity; do not move it merely to enforce adjacency. Resolve competing nouns explicitly when proximity alone leaves doubt.
 - Put only, negatives, and other modifiers beside the words they govern. Preserve the scope of a denial or exception; “not all” must not become “none.” Change the smallest span that removes the ambiguity.
+
+### Modifier examples
+
+- **Repair a dangling modifier:** “After reading the letter, the news upset Omar.” → “After Omar read the letter, the news upset him.” Use this repair only when the context confirms Omar as the reader. If the actor is unknown, ask before naming one.
+- **Preserve scope:** “Only Mira approved the draft” limits who approved it. “Mira approved only the draft” limits what Mira approved. Neither is an automatic replacement for the other. The editor needs the intended meaning before moving **only**.
+- **Preserve partial negation:** “Not all members attended” allows some attendance. “No members attended” rules out any attendance. Do not strengthen the negative to shorten the wording.
 
 ## Parallel grammar
 
 - Express coordinated ideas in equivalent grammatical form. A shared article or preposition must apply clearly to every item. Repeat it for each item, or use it once where the grammar permits.
 - Align the constructions after correlative pairs. If a house restriction excludes a particular contrast formula, recast it without losing the relation.
 - Keep useful local parallelism when repairing repetitive writing. Matching grammar in a list is different from telling every example in the same rhetorical template. Group a long set of equivalent ideas where helpful; use a table only when the reader and genre benefit.
+
+### Parallelism examples
+
+- **Delete one word:** “Staff must file receipts, to label folders, and record dates.” → “Staff must file receipts, label folders, and record dates.” Delete only **to**; retain the three actions and their order.
+- **Share or repeat the preposition consistently:** “We meet in spring, summer, and in winter.” → “We meet in spring, summer, and winter.” “We meet in spring, in summer, and in winter” is also valid. Choose the smallest repair suited to the sentence's emphasis.
+- **Keep an effective parallel list:** “The clerk checks names, stamps forms, and files copies.” needs no variation merely because its verbs share a grammatical pattern.
 
 ## Tense and attribution
 
