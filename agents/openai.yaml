@@ -1,0 +1,4 @@
+interface:
+  display_name: "Editor"
+  short_description: "Edit clearly and precisely while preserving voice"
+  default_prompt: "Use $editor to review this text and suggest the smallest changes that improve clarity and natural flow."
