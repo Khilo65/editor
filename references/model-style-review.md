@@ -14,7 +14,7 @@ A single draft supports findings about that draft. Multiple independent outputs 
 
 | ID | Watch for | Decide in context |
 |---|---|---|
-| M1 Vocabulary and framing | Repeated evaluative adjectives, intensifiers, generic verbs, transitions, sentence openers, importance announcements, hedges, corrective contrasts, promises of benefits with no cost, and recurrent phrases with different content words. | Does each occurrence add information or express a necessary relation? Keep exact technical terms, warranted uncertainty, meaningful contrasts, and useful repetition. Check isolated choices as well as sequences across sections. |
+| M1 Vocabulary and framing | Repeated evaluative adjectives, intensifiers, generic verbs, transitions, sentence openers, importance announcements, hedges, corrective contrasts, promises of benefits with no cost, and recurrent phrases with different content words. | Does each occurrence add information or express a necessary relation? Preserve the substance of exact technical terms, genuine uncertainty, necessary contrasts, and useful repetition within the mandatory house bans; recast banned wording unless protected. Check isolated choices as well as sequences across sections. |
 | M2 Formatting and organization | Excessive heading depth, a heading before every short paragraph, bold labels on every bullet, habitual tables or horizontal rules, repeated list sizes, unnecessary summaries, and the same introduction–list–verdict structure in unrelated sections. | Does the layout help this reader find, compare, or act on information? Keep requested formats, accessible navigation, procedural steps, and useful lists. Inspect both excessive formatting and a forced absence of structure. |
 | M3 Syntax and rhythm | Repeated clause skeletons, uniform sentence or paragraph lengths, the same punctuation cadence, identical section openings or endings, and repeated short punchlines after longer explanations. Also watch abrupt compression or decorative fragments introduced by editing. | Does the sequence suit the actual thought? Read adjacent sentences together and across section boundaries. Preserve grammatical parallelism, intentional emphasis, necessary repeated wording, and naturally varied sentences. |
 
@@ -38,7 +38,7 @@ Existing text still follows the proposal and approval workflow. An audit flags e
 
 Do not evade a ban by adding filler or moving the same rhetorical template elsewhere. Change only the span needed to express the meaning clearly; do not delete evidence or necessary limits just to remove banned words. Check each NEW span against every other house rule and reread it in context.
 
-### Require qualifications to earn their place
+### Q1 Keep only necessary qualifications
 
 Do not preserve a hedge, caveat, or contrast merely because the original contains it. Delete generic caution, hypothetical objections, ritual acknowledgments of complexity, and repeated limits when they do not change the supported point or help the reader make a relevant decision. Do not add a new caveat after deleting the old one. Apply the same necessity test to model-generated wording and the editor's replacements.
 
@@ -49,6 +49,8 @@ Before retaining a qualification, identify the specific false inference, evident
 - **Keep genuine uncertainty:** “The sample may undercount weekend visits” retains its uncertainty when the available evidence leaves undercounting unresolved. Deleting **may** would invent a finding.
 
 ### Meaning-preserving examples
+
+These examples assume their substance passes Q1. Delete a needless caveat instead of automatically recasting it.
 
 - “This matters because late requests miss the review.” → “Late requests miss the review.” The consequence survives the deletion.
 - “Looking ahead to June, we plan a review.” → “We plan a review for June.” Keep this as a plan, not an event that already happened.

@@ -1,6 +1,6 @@
 # Grammar and form review
 
-Use these checks when reviewing sentence grammar, quotations, citations, or document form. Diagnose the actual construction before changing it. Preserve meaning, quoted text, exact names and titles, adopted terminology, and explicitly protected wording. Make the smallest correction that solves the defect. The selected house restrictions govern punctuation and voice; a conventional alternative does not override an explicit restriction.
+Use these checks when reviewing sentence grammar, quotations, citations, or document form. Diagnose the actual construction before changing it. Preserve meaning, quoted text, exact names and titles, adopted terminology, and explicitly protected wording. Make the smallest correction that solves the defect. The selected house restrictions govern word choice, phrase bans, qualification necessity, punctuation, and voice; a conventional alternative does not override an explicit restriction. Apply [Q1](model-style-review.md#q1-keep-only-necessary-qualifications) to optional qualifications without deleting necessary grammatical scope or factual limits.
 
 ## Noun forms and list punctuation
 

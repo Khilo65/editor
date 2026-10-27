@@ -12,7 +12,7 @@ For a file-based round, record its absolute source path, SHA-256 hash, date, sco
 
 Number items in document order with stable IDs such as R1-1. Each item includes the reliable location, exact OLD text, complete NEW text, rule IDs, and a one-line reason. Use lines for Markdown and text; use section, paragraph number, table cell, or anchored quote for Word. Cite page numbers only after verifying pagination. Group repeated findings by named pattern without losing stable item IDs or document order. Explain the overall repair strategy once.
 
-State the most consequential issue, totals, protected flags, unverified factual additions, and open decisions. Check every NEW span against the full rule set before proposing it. A deletion needs a reason and, when it removes repetition, the location where the point still lives. Propose new facts only after checking them or clearly flagging them for verification before use.
+State the most consequential issue, totals, protected flags, unverified factual additions, and open decisions. Check every NEW span against the full rule set before proposing it. A deletion needs a reason. For repetition, give the location where the point still lives. For a gratuitous qualification, apply [Q1](model-style-review.md#q1-keep-only-necessary-qualifications); do not relocate or recast an unnecessary caveat merely to preserve its wording. A necessary condition or genuine uncertainty must survive accurately. Propose new facts only after checking them or clearly flagging them for verification before use.
 
 When the user requests the full list, include every pending OLD/NEW item. Never silently substitute a revised proposal for an approved one. Interpret voice-transcription names from context and flag any material uncertainty.
 
@@ -22,7 +22,7 @@ Record each item as pending, approved, approved as revised, rejected, withdrawn,
 
 Before applying, reread and hash the live source. When the baseline differs, map approved spans onto the current version using exact text plus contextual anchors. Report items the author's revisions superseded. If an OLD span is missing, duplicated without a unique anchor, or overlaps another conflicting item, keep it pending and explain the conflict. Do not use a global replacement or guess at the intended occurrence.
 
-Prepare a new output copy; preserve the original and earlier rounds. Never overwrite an existing revised artifact. Do not rewrite a whole paragraph to apply one approved clause. Re-read every changed sentence and its paragraph for grammar, duplication, referents, citations, and unintended factual changes. Check that applied counts match approved applicable items. Preserve deliberate typos or grammar when the user instructs you to keep them.
+Prepare a new output copy; preserve the original and earlier rounds. Never overwrite an existing revised artifact. Do not rewrite a whole paragraph to apply one approved clause. Re-read every changed sentence and its paragraph for grammar, duplication, referents, citations, unintended factual changes, mandatory phrase bans, and Q1 qualification necessity. Check that applied counts match approved applicable items. Preserve deliberate typos or grammar when the user instructs you to keep them.
 
 ## Markdown review package
 

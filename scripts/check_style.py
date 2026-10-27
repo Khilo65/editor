@@ -70,6 +70,8 @@ MANUAL_CHECKS = [
     'P4 improvised noun-to-verb conversions',
     'P5 strained personification and subject-verb fit',
     'P6 unfamiliar compressed labels',
+    'Q1 remove unnecessary qualifications even once; retain only necessary limits and genuine uncertainty',
+    'M1 complete mandatory-phrase review, including formatting splits and complex topic frames',
 ]
 
 
@@ -168,7 +170,7 @@ def analyze(text: str, baseline: str | None = None) -> dict:
         if token in lexical:
             add('A1.lexical.' + lexical[token], *match.span(), 'House-ban candidate; check quotation, cited title, proper-name, and adopted-text exemptions.')
         if token in filler:
-            add('A10.3.all-purpose.' + filler[token], *match.span(), 'Check whether this verb names an action or serves as filler; nouns and precise uses may be valid.')
+            add('A10.3.all-purpose.' + filler[token], *match.span(), 'Check whether this verb names an action or serves as filler. Nouns and precise uses may be valid only outside mandatory lexical and phrase bans; those bans override this allowance.')
         if token in {'mere', 'merely', 'merest'}:
             mere.append(match)
     if len(mere) > 1:
@@ -185,7 +187,7 @@ def analyze(text: str, baseline: str | None = None) -> dict:
         ('A1.leaves-open', r'\b(?:leave[sd]?|left)\b[^.!?\n]{0,100}\b(?:open|unexplained|unanswered)\b', 'Check the forbidden leaves-open family; literal physical uses may be valid.'),
         ('A1.section-reference', r'\b(?:section\s+\d+(?:\.\d+)*|as\s+defined\s+in\s+the\s+\w+\s+section)\b', 'Replace running-prose section references with the substantive referent.'),
         ('A1.negative-contrast', r'\bnot\b[^.!?\n]{0,100}\bbut\b', 'Check formulaic not-X-but-Y contrast without deleting real negation.'),
-        ('A10.1.defensive', r'\b(?:alone\s+does\s+not|cannot\s+stand\s+in\s+for|does\s+not\s+by\s+itself|cannot\s+be\s+(?:answered|determined))\b', 'State the evidence needed or what the source tells us; retain uncertainty.'),
+        ('A10.1.defensive', r'\b(?:alone\s+does\s+not|cannot\s+stand\s+in\s+for|does\s+not\s+by\s+itself|cannot\s+be\s+(?:answered|determined))\b', 'Apply Q1 first: delete an unnecessary caveat. Only when its limit is necessary, recast the evidence or finding without overstating certainty or changing logical scope.'),
         ('A10.5.trailing-contrast', r',\s+not\b[^.!?\n]*', 'Check whether the trailing contrast answers a real objection.'),
         ('A10.13.stock', r'\b(?:sheds?\s+light\s+on|speaks?\s+to|in\s+its\s+own\s+right)\b', 'Check whether the phrase carries content.'),
         ('A10.12.vague-relation', r'\b(?:pointed\s+in\s+different\s+directions|the\s+two)\b', 'Name the referents and their relationship when unclear.'),
@@ -252,6 +254,7 @@ def analyze(text: str, baseline: str | None = None) -> dict:
               'sentence_statistics': stats(prose), 'repeated_trigrams': repeated,
               'limits': [
                   'All matches are candidates requiring human/editorial context, including quoted or protected wording.',
+                  'For mandatory-ban matches, context checks protection and applicability; it does not make an applicable ban optional. A useful unprotected occurrence still requires a recast.',
                   'Finite lexical families cannot enumerate every derivation; the editor must check unfamiliar forms.',
                   'Sentence boundaries and passive forms are heuristic; numbers are descriptive, not stylistic targets.',
                   'No authorship inference, automatic edits, or complete-style-pass verdict.',

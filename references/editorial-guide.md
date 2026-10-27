@@ -81,7 +81,7 @@ Enforce the [mandatory Claude and Astra phrase bans](model-style-review.md#manda
 
 Case-insensitive bans include inflected and derived forms of **claim, reveal, appear, examine, emerge, remain, while, whilst, meanwhile, awhile, rather, durable, distinguish, identify, distinct, concern, asks, beyond, quiet, establish**. Apply the source's inflection rule to the verb family `ask/asks/asked/asking`; a question in an editing conversation is outside the prose being edited. Review unfamiliar derivatives in context. For `quiet` used to describe toleration, prefer `informal` when accurate.
 
-Ban **the central argument of** and **rather than**. State the substance directly. Avoid **supply** and **provide** as generic descriptions of what a case, source, or literature does. Name the action. Also review **offer, assess, record** when they fill the same empty role. These are contextual verb checks, not bans on a physical supply or a record as a noun.
+Ban **the central argument of** and **rather than**. State the substance directly. Avoid **supply** and **provide** as generic descriptions of what a case, source, or literature does. Name the action. Also review **offer, assess, record** when they fill the same empty role. These general verb checks are contextual; lexical bans and the named phrase bans still override a precise or concrete use. In particular, **may provide** and **can provide** always require recasts in unprotected prose. A physical supply or a record as a noun can remain outside those bans.
 
 Avoid habitual **merely**, **mere**, and near variants; one isolated, useful occurrence is acceptable. Replace compressed relations such as “X concerns who controls...” with a sentence that explains the relation. Avoid repeating one substitute everywhere.
 
@@ -99,7 +99,7 @@ Mechanical word matching needs contextual review. The source both mentions deriv
 
 Start each prose paragraph with a topic sentence stating its point, not a question. Keep one coherent idea per paragraph. Introduce unfamiliar people, organizations, events, and terms at first use for the actual audience. For an exchange or bargain, name who gives what and who receives what. Split overloaded sentences where their logic becomes hard to follow. Do not turn every long sentence into two medium ones.
 
-State a qualification once where it matters. Keep episodes and dates in intelligible order. Fit caveats into the explanation and end on evidence, substantive development, or consequence. Remove empty images and redundant verdicts. Give each substantive point one home; search nearby passages before adding another occurrence.
+Apply [Q1, qualification necessity](model-style-review.md#q1-keep-only-necessary-qualifications): delete gratuitous caveats, even a single occurrence. Retain a limit only when omission would materially mislead, overstate the evidence, or change a relevant condition. State a necessary limit once within its explanation. Keep episodes and dates in intelligible order and end on evidence, substantive development, or consequence. Remove empty images and redundant verdicts. Give each substantive point one home; search nearby passages before adding another occurrence.
 
 ## Remove generic rhetorical templates
 
@@ -112,7 +112,7 @@ State a qualification once where it matters. Keep episodes and dates in intellig
 | A3.5 Throat clearing | Roadmaps and writing-process commentary without substantive content. | Delete or replace with the actual point. |
 | A3.6 Templated section opening | Each section follows the same explains/fails/this-work-takes sequence. | Let the argument, event, evidence, or relation determine each opening. |
 
-A single useful construction is not automatically a defect. Diagnose recurring templates and empty moves in context.
+For these contextual template checks, a single useful construction is not automatically a defect. This allowance never overrides a lexical or named phrase ban, or Q1's requirement to delete an unnecessary qualification even once.
 
 ## Make the meaning concrete
 
@@ -130,9 +130,9 @@ Use accepted terms and preserve adopted terminology. Explain specialized roles o
 
 | ID | Diagnose | Surgical move |
 |---|---|---|
-| A10.1 Defensive inability | “X alone does not show Y,” “cannot stand in for,” “does not by itself,” “cannot be answered from,” “cannot be determined from.” | Say which information or evidence is needed, or what the source actually tells us. Preserve the exact evidential limit. |
+| A10.1 Defensive inability | “X alone does not show Y,” “cannot stand in for,” “does not by itself,” “cannot be answered from,” “cannot be determined from.” | Delete the caveat if it fails Q1. Only when its limit is necessary, state the needed evidence or the actual finding without changing evidential strength; never invent a new research gap or reassurance. |
 | A10.2 Stamp ending | Flat concluding verdicts, especially repeated summaries. | Join necessary content to its explanation, or end on the actual evidence. |
-| A10.3 All-purpose verb | Supply, provide, establish, offer, assess, record used without a concrete action. | Name the action without making every replacement the same verb. |
+| A10.3 All-purpose verb | Supply, provide, establish, offer, assess, record used without a concrete action. | Enforce lexical and named phrase bans even for precise uses. For the other contextual verbs, replace filler with the actual action without repeating one substitute. |
 | A10.4 Repeated opener | Repeated document, project, or method labels or bare “This” pointing at a whole thought. | Name the referent or vary the sentence's actual subject. |
 | A10.5 Trailing contrast | A final “not Y” answers an objection nobody made. | Keep the positive point and remove the empty contrast. |
 | A10.6 Stacked conditional | Runs of two or three “If” sentences read like a decision tree. | Vary sentence structure without changing the logical conditions. |
@@ -150,7 +150,7 @@ Every action of blocking, removing, granting, withdrawing, accepting, or refusin
 
 ## Remove redundancy and preserve rhythm
 
-Delete a sentence only when its removal loses no meaning; explain what it repeated and where the point still lives. Allow useful repetition whenever it makes the text easier to follow, including repeated nouns, conventional phrases, necessary terminology, and clear parallel instructions. Do not replace clear wording with synonyms solely to avoid recurring three-word phrases across edits. Flag repeated empty rhetorical templates and mechanical repair formulas when they add no content or obstruct the point. Vary the wording or structure only when the change improves clarity or natural flow; no blanket phrase-uniqueness rule applies.
+Preserve necessary substance when deleting a sentence. For redundancy, explain what it repeats and where that point survives. For a gratuitous caveat, cite its failure of Q1; an unnecessary qualification need not survive elsewhere merely because it has literal meaning. Never delete evidence, a relevant condition, or genuine uncertainty under this allowance. Allow useful repetition whenever it makes the text easier to follow, including repeated nouns, conventional phrases, necessary terminology, and clear parallel instructions. Do not replace clear wording with synonyms solely to avoid recurring three-word phrases across edits. Flag repeated empty rhetorical templates and mechanical repair formulas when they add no content or obstruct the point. Vary the wording or structure only when the change improves clarity or natural flow; no blanket phrase-uniqueness rule applies.
 
 Measure sentence-length spread before and after substantial rounds. Preserve broad natural variation where the author has it, including short and long sentences. The source's historical averages and under-eight/over-forty examples describe an author's rhythm; they are not quotas for every email or paragraph. Do not insert padding, fragments, mistakes, or needless length to manufacture variation. Devices such as “But,” “So,” “And,” “Still,” first person, merging, and splitting should follow the thought and should not become replacement templates.
 

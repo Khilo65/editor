@@ -11,13 +11,13 @@ Consult this lookup when a word or construction needs a decision. Apply the stat
 | As to whether | Use whether unless the surrounding grammar needs a different construction. |
 | Bid | In the command sense, use an infinitive without to and the past bade. Do not apply this restriction to a bidding-price sense or an exact quotation. |
 | Case | Cut empty in-many-cases or it-is-the-case-that framing. Retain an actual instance, legal case, grammatical case, or technical meaning. |
-| Certainly | Remove habitual intensification that adds no evidence or useful degree of assurance. Preserve a substantive degree of certainty. |
+| Certainly | Remove empty intensification even once. Retain a degree of assurance only when evidence supports it and the reader needs it under Q1; do not insert uncertainty into a verified fact. |
 | Character | Cut redundant of-a-character phrasing. Retain an actual quality, person, or technical object. |
 | Claim | Apply the complete house ban to the lexical family, including an otherwise legitimate entitlement sense. Protect exact names, titles, quotations, and explicitly retained wording. |
 | Compare | Use compare to for resemblance across different orders of things and compare with for a comparison mainly of differences within the same order. Preserve the actual analytical operation. |
 | Clever | Restrict it to ingenuity in small matters. Name the achievement for broader praise. |
 | Consider | Omit as when consider means believe to be. Retain as when it introduces the role or capacity under discussion. |
-| Dependable | Prefer reliable or trustworthy. |
+| Dependable | Mandatory house ban, even once. Recast with reliable, trustworthy, or other accurate wording; preserve protected names, titles, quotations, and author decisions, flagging the conflict. |
 | Due to | Use as a predicate or modifier tied to a noun. Replace an adverbial causal use with because of or owing to without changing the causal assertion. |
 | Effect | Separate noun result, verb bring about, and affect meaning influence. Replace vague artistic effects with a concrete description supported by the text. |
 | Etc. | Do not use for persons, omitted important particulars, or after such as or for example. Retain only when the continuation is clear and immaterial. Preserve a quoted abbreviation. |
@@ -58,7 +58,7 @@ Consult this lookup when a word or construction needs a decision. Apply the stat
 
 ### Usage boundary examples
 
-- **Degree versus category:** “The task is kind of difficult.” → “The task is somewhat difficult.” Change only the qualifier. “A seminar is a kind of class” uses the literal category sense and should stay. In familiar writing, “a kind of workshop” can be an acceptable noun approximation; it does not license **kind of difficult**. Apply the same distinction to **sort of**.
+- **Degree versus category:** “The task is kind of difficult.” → “The task is somewhat difficult” only when the supported degree is necessary. Otherwise use “The task is difficult.” Do not automatically replace one unnecessary qualifier with another; apply [Q1](model-style-review.md#q1-keep-only-necessary-qualifications). “A seminar is a kind of class” uses the literal category sense and should stay. In familiar writing, “a kind of workshop” can be an acceptable noun approximation; it does not license **kind of difficult**. Apply the same distinction to **sort of**.
 - **Causal versus noun-related due to:** Under the selected literal usage, change “We postponed the trip due to fog” to “We postponed the trip because of fog.” Keep “The postponement was due to fog.” Do not replace every occurrence without checking its grammatical role.
 - **Subject versus object pronoun:** “The guest whom Mina said would arrive” → “The guest who Mina said would arrive.” The pronoun is the subject of **would arrive**. Keep “the guest whom Mina invited,” where the pronoun is the object of **invited**.
 
