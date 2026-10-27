@@ -32,6 +32,7 @@ The editor defaults to numbered OLD/NEW suggestions. It applies approved changes
 - Review sentence and paragraph construction, grammar, punctuation, usage, spelling, and clear referents.
 - Recheck [paragraph development and flow](references/editorial-guide.md#flow-develop-a-connected-paragraph) after local repairs, connecting supported ideas without flattening prose into short declarations.
 - Complete a [passage-by-passage review](references/review-checklist.md), including reader knowledge, substantive explanation, repeated modal framing, and unchanged in-scope prose.
+- Review substantive literature through [LIT](references/editorial-guide.md#lit-make-literature-do-substantive-work): its relevant argument, reasoning, applicable findings, evidence and scope, and role in the present paper. A different attribution verb cannot repair a topical gloss.
 - Flag empty rhetorical templates, vague abstractions, and redundant summaries.
 - Remove unnecessary qualifications even once. Keep or recast a limit only when omission would mislead, overstate evidence, or change a relevant condition; apply [Q1](references/model-style-review.md#q1-keep-only-necessary-qualifications).
 - Review recurring vocabulary, formatting, and rhythm across models, using observed text and suitable reference samples; recheck for habits introduced by repairs.

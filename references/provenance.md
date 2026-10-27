@@ -280,3 +280,7 @@ On 27 October 2026 the user authorized retirement of the earlier academic prose/
 ## Review completion update, 27 October 2026
 
 Author feedback from a real commented-document trial prompted the required REVIEW checklist. It makes passage coverage, reader knowledge, substantive explanation, comments, modal repetition, Q1 before polishing, and actual repair effectiveness explicit. The user chose contextual necessity and repetition checks for modal words, preserving needed modality; no individual modal ban was added. Active voice stays mandatory, with grammatical voice checked separately from vague active constructions. These are operational editorial preferences, not new findings from the book or cited studies.
+
+## Substantive literature and modal framing, 27 October 2026
+
+Author feedback requires LIT.1–5 whenever literature carries substantive weight: relevant argument and reasoning, applicable findings with evidence and scope, and a concrete role in the present paper. Generic attribution plus a topic cannot pass through verb substitution. The expanded modal check targets repeated may framing, places necessary uncertainty on the actual proposition, and keeps verified source positions direct. It adds no individual-modal ban, mandatory empirical finding, author-by-author template, novelty assertion, or automatic source verification. These are editorial preferences from the user, not new research findings.
