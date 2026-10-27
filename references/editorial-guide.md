@@ -77,6 +77,8 @@ These are contextual editorial applications of research on linguistic processing
 
 ## Apply word and punctuation restrictions
 
+Enforce the [mandatory Claude and Astra phrase bans](model-style-review.md#mandatory-claude-and-astra-phrase-bans) in addition to the restrictions below. They apply even once. Remove unnecessary qualifications; retain or recast one only when its removal would mislead, overstate the evidence, or change a relevant condition. Preserve meaning and genuine uncertainty through local recasts. Protected wording and edit approvals keep their existing treatment.
+
 Case-insensitive bans include inflected and derived forms of **claim, reveal, appear, examine, emerge, remain, while, whilst, meanwhile, awhile, rather, durable, distinguish, identify, distinct, concern, asks, beyond, quiet, establish**. Apply the source's inflection rule to the verb family `ask/asks/asked/asking`; a question in an editing conversation is outside the prose being edited. Review unfamiliar derivatives in context. For `quiet` used to describe toleration, prefer `informal` when accurate.
 
 Ban **the central argument of** and **rather than**. State the substance directly. Avoid **supply** and **provide** as generic descriptions of what a case, source, or literature does. Name the action. Also review **offer, assess, record** when they fill the same empty role. These are contextual verb checks, not bans on a physical supply or a record as a noun.
@@ -154,7 +156,7 @@ Measure sentence-length spread before and after substantial rounds. Preserve bro
 
 ## Review habits across models
 
-During a full review, follow [the model-independent style review](model-style-review.md) for recurring vocabulary and framing (M1), formatting and organization (M2), and syntax and rhythm (M3). Use the actual text and suitable reference samples; a model name alone cannot diagnose a defect. Check for new habits introduced by repairs. These contextual checks supplement all existing bans and patterns.
+During a full review, follow [the model-independent style review](model-style-review.md) for recurring vocabulary and framing (M1), formatting and organization (M2), and syntax and rhythm (M3). Use the actual text and suitable reference samples; a model name alone cannot diagnose a defect. Check for new habits introduced by repairs. The named Claude/Astra phrase bans are mandatory; other model-style checks remain contextual. They supplement all existing bans and patterns.
 
 ## Detector reports
 

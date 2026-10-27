@@ -34,7 +34,7 @@ The editor defaults to numbered OLD/NEW suggestions. It applies approved changes
 - Review recurring vocabulary, formatting, and rhythm across models, using observed text and suitable reference samples; recheck for habits introduced by repairs.
 - Check helpful clause markers, embedded clauses, distant related words, opaque noun strings, improvised verbs, strained personification, and compressed invented labels.
 
-This is an opinionated house style. It requires active voice in new prose and proposed replacements, permits useful repetition, and retains specific word, punctuation, and usage preferences. Protected text has explicit exceptions. Adapt the editorial guide if your preferences differ.
+This is an opinionated house style. It requires active voice in new prose and proposed replacements, permits useful repetition, and enforces specific word, punctuation, and usage preferences, including the [named Claude/Astra phrase bans](references/model-style-review.md#mandatory-claude-and-astra-phrase-bans). Those phrases require a local recast even once; preserve meaning and genuine uncertainty. Protected text has explicit exceptions. Adapt the editorial guide if your preferences differ.
 
 ## Optional checker
 
@@ -45,7 +45,7 @@ python3 scripts/check_style.py draft.md --json
 python3 scripts/check_style.py revised.md --baseline original.md --json
 ```
 
-It reports candidates and descriptive sentence statistics. It does not apply edits, certify style compliance, determine authorship, or syntactically detect the six reader-processing checks. Those checks require contextual editorial review. Model profiles and Markdown layout also require contextual review; the helper does not infer them.
+It reports candidates and descriptive sentence statistics. It does not apply edits, certify style compliance, determine authorship, or syntactically detect the six reader-processing checks. Those checks require contextual editorial review. The helper also flags the named mandatory phrase bans, subject to protected-text and scope checks. Model profiles and Markdown layout require contextual review; the helper does not infer them.
 
 ## Guide structure
 

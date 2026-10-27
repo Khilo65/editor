@@ -40,6 +40,18 @@ ALL_PURPOSE_FAMILIES = {
     'assess': 'assess assesses assessed assessing assessment assessments',
     'record': 'record records recorded recording recordings',
 }
+# Explicit user-selected bans. Surface matches still need exemption and scope review;
+# the checker never edits protected wording or decides how to preserve uncertainty.
+STOCK_PHRASE_BANS = [
+    ('M1.C1.this-matters', r'\bthis\s+matters\b'),
+    ('M1.C1.why-matters', r'\bwhy\s+[^.!?;\n]+?\s+matters\b'),
+    ('M1.C2.looking-ahead', r'\blooking\s+ahead\b'),
+    ('M1.C3.dependable', r'\bdependable\b'),
+    ('M1.A1.does-not-establish', r"\b(?:does\s+not|doesn['’]t)\s+establish\b"),
+    ('M1.A2.another-dimension', r'\banother\s+dimension\b'),
+    ('M1.A3.modal-provide', r'\b(?:may|can)\s+provide\b'),
+    ('M1.A4.not-simply', r'\bnot\s+simply\b'),
+]
 WORDS = re.compile(r"[A-Za-z]+(?:['’][A-Za-z]+)?(?:[-‐‑][A-Za-z]+)*")
 MANUAL_CHECKS = [
     'A3.1 gap formula', 'A3.2 numbered setups', 'A3.3 unsupported rankings',
@@ -163,6 +175,10 @@ def analyze(text: str, baseline: str | None = None) -> dict:
         for match in mere:
             add('A1.habitual-merely', *match.span(), f'{len(mere)} mere/merely variants; review recurrence in context. An isolated instance is acceptable.')
 
+    for rule, pattern in STOCK_PHRASE_BANS:
+        for match in re.finditer(pattern, prose, re.I):
+            add(rule, *match.span(), 'Mandatory stock-phrase ban in unprotected prose, even once. Recast surgically. Remove unnecessary qualifications; preserve meaning, necessary logical limits, and genuine uncertainty. Check protected-text exceptions and current edit approval.')
+
     patterns = [
         ('A1.central-argument', r'\bthe\s+central\s+argument\s+of\b', 'State the argument directly.'),
         ('A1.rather-than', r'\brather\s+than\b', 'State the positive substance; preserve meaningful distinctions.'),
@@ -241,6 +257,7 @@ def analyze(text: str, baseline: str | None = None) -> dict:
                   'No authorship inference, automatic edits, or complete-style-pass verdict.',
                   'All contextual checks below still require a full-document reading even when a related heuristic matched.',
                   'P1-P6 are manual reader-processing checks; this helper does not syntactically detect them.',
+                  'Named Claude/Astra bans use surface matching; formatting splits and complex why-topic-matters frames need manual review. Broader model profiling and layout checks remain manual.',
               ], 'manual_checks_required': MANUAL_CHECKS}
     if baseline is not None:
         result['baseline_sha256'] = hashlib.sha256(baseline.encode('utf-8')).hexdigest()

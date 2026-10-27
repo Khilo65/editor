@@ -1,6 +1,6 @@
 # Review recurring style across models
 
-Use this review during a full editorial audit and the writer's whole-draft self-review. For a narrow task, review the relevant passages without expanding its scope. Inspect recurring vocabulary, formatting, and rhythm even when the text contains no listed banned word. The aim is clear writing in the author's intended voice. A model label or resemblance to a published tell is a lead for inspection, not a reason to edit by itself.
+Use this review during a full editorial audit and the writer's whole-draft self-review. For a narrow task, review the relevant passages without expanding its scope. Inspect recurring vocabulary, formatting, and rhythm even when the text contains no listed banned word. The aim is clear writing in the author's intended voice. A model label or resemblance to a published tell is a lead for inspection. The explicit house bans below require recasts regardless of model or recurrence.
 
 ## Establish what the evidence permits
 
@@ -20,23 +20,54 @@ A single draft supports findings about that draft. Multiple independent outputs 
 
 For M1, inspect recurring frames as well as exact strings. A passage can repeat an empty move without repeating the same three words. For M2, choose paragraphs, headings, lists, and tables by their function; do not replace every list with prose. For M3, sentence-length statistics can locate passages to read, but syntax and cadence require contextual judgment. Neither uniformity nor variation alone determines quality.
 
-## Explicit Claude and Astra watchlist
+## Mandatory Claude and Astra phrase bans
 
-Check these named patterns in addition to discovering new habits. The model labels describe the supplied research, not the author of a passage or a permanent property of every version. Inspect these patterns regardless of which model generated the text. Avoid their stock uses in new prose and propose local repairs in existing prose. A match requires review, not automatic deletion. Existing absolute house bans and protected-text exceptions keep their priority.
+The user explicitly made C1–C3 and A1–A4 **mandatory house bans** on 26 October 2026. Apply them case-insensitively to every occurrence in unprotected new prose, proposed replacements, and headings, even when the phrase occurs once or expresses something useful. No generating-model identification or repeated-use finding is needed. Recast the wording while retaining its substance. First remove any unnecessary qualification; preserve a qualification only when its removal would materially mislead the reader, overstate the evidence, or change a relevant condition. The historical model labels explain the source of the list, not who wrote a passage.
 
-| ID | Research association and pattern | What to fix or retain |
+Existing text still follows the proposal and approval workflow. An audit flags each violation; it does not edit the document. A writer repairs its initial draft internally. Preserve quotations, cited titles, proper names, explicitly protected wording, and previously rejected edits under the existing rules; flag the conflict instead of changing protected text. A factual or logical conflict requires a flag or clarification, never an invented repair.
+
+| ID | Banned wording or frame | Required surgical recast |
 |---|---|---|
-| M1.C1 | Claude Opus 5.5: **this matters**; **why [topic] matters** | Remove empty importance announcements and repeated importance headings. State the supported consequence directly. Retain a heading or explanation that answers a real reader question without restating the passage. |
-| M1.C2 | Claude Opus 5.5: **looking ahead the** and related looking-ahead openers | Remove a stock future-facing transition that adds no information. Keep an actual forecast, plan, or change in timeframe, preserving its uncertainty and chronology. |
-| M1.C3 | Claude Opus 5.5: **dependable** | Apply the existing literal usage preference for **reliable** or **trustworthy** when accurate. Also remove unsupported evaluation; a synonym does not supply missing evidence. Preserve protected uses. |
-| M1.A1 | GPT-6 Astra: **does not establish** | Apply the existing **establish** family ban and defensive-framing check. Describe the actual evidential limit or required evidence with the same logical force. Never turn lack of support into disproof or certainty. |
-| M1.A2 | GPT-6 Astra: **another dimension** | Replace empty transitional abstraction with the actual topic or relation. Keep a precise technical use of **dimension** or another substantive use that the audience understands. |
-| M1.A3 | GPT-6 Astra: **may provide**; **can provide** | Replace generic **provide** with the supported action. Preserve **may** or **can** when possibility, ability, or uncertainty matters; do not turn a possibility into a result. Retain concrete, accurate uses permitted by the existing verb rule. |
-| M1.A4 | GPT-6 Astra: **not simply X** and related corrective framing | State the positive substance when the contrast answers no real question. Preserve a necessary qualification or substantive contrast through an accurate local recast. Check the existing bans separately. |
-| M1.X1 | Cross-model examples from the user's prompt: **delve**; figurative **landscape**; **absolutely**; **highly** | Review habitual stock vocabulary and unsupported intensification. Name the action or degree precisely using available evidence. Keep literal landscape, necessary technical usage, and warranted emphasis. |
-| M1.X2 | Cross-model examples from the user's prompt: **rather than**; **not just** | Apply the existing unconditional **rather than** ban, preserving the relationship through a recast. Review **not just** for empty contrast; retain its substantive meaning when changing the wording. |
+| M1.C1 | **this matters**; **why [topic] matters** | State the consequence or substantive point directly. Rename a heading to express its actual topic or relation. Preserve any necessary explanation of importance without retaining the banned frame. |
+| M1.C2 | **looking ahead**, including **looking ahead the** and longer openers | State the actual plan, forecast, or future timeframe directly. Preserve chronology, the planning status, and genuine uncertainty. |
+| M1.C3 | **dependable** | Use **reliable**, **trustworthy**, or another accurate recast. Preserve the original evaluation or requirement when meaningful; do not invent evidence to justify it. |
+| M1.A1 | **does not establish**, including **doesn't establish** | Delete an unnecessary defensive caveat. When an evidential limit is necessary, recast it accurately: lack of conclusive support does not mean disproof, no support at all, or certainty about the opposite. The pre-existing **establish** family ban also applies. |
+| M1.A2 | **another dimension** | Name the actual topic, factor, relation, or additional dimension in different wording. A mathematical use still needs a faithful recast, such as **an additional dimension**, unless protected. |
+| M1.A3 | **may provide**; **can provide** | Recast the action and remove empty hedging. Keep a modal only when its possibility, ability, permission, or uncertainty is necessary to the meaning. Do not ban **may** or **can** individually or turn an uncertain result into a finding. Concrete uses also require a recast. |
+| M1.A4 | **not simply X** | Delete an unneeded qualification or contrast. When it protects a relevant distinction, recast only that necessary meaning and preserve its logical scope. Even a necessary contrast must avoid this frame. |
 
-The [Opus 5.5 update](https://graphite.io/five-percent/research/ai-tells-opus-5-5-update) supplies the Claude examples and the Astra evidential-limit example; the [original report](https://graphite.io/five-percent/research/ai-tells) supplies the other Astra framing examples. The cross-model rows preserve the user's supplied examples as contextual review leads. These rows do not add every term to the unconditional lexical blacklist. The Python helper does not detect this entire watchlist; the editor and writer must review it explicitly.
+Do not evade a ban by adding filler or moving the same rhetorical template elsewhere. Change only the span needed to express the meaning clearly; do not delete evidence or necessary limits just to remove banned words. Check each NEW span against every other house rule and reread it in context.
+
+### Require qualifications to earn their place
+
+Do not preserve a hedge, caveat, or contrast merely because the original contains it. Delete generic caution, hypothetical objections, ritual acknowledgments of complexity, and repeated limits when they do not change the supported point or help the reader make a relevant decision. Do not add a new caveat after deleting the old one. Apply the same necessity test to model-generated wording and the editor's replacements.
+
+Before retaining a qualification, identify the specific false inference, evidential overstatement, or changed condition that its removal would cause. If none exists, remove it. When the qualification is necessary, express only the needed limit at the point where the reader needs it; do not repeat it as a closing disclaimer. Do not invent support to justify a stronger assertion. If the available evidence cannot resolve a material confidence question, flag it instead of guessing.
+
+- **Remove generic caution:** “Submit requests by Friday. Of course, every situation is different.” → “Submit requests by Friday.” This applies when no relevant exception or qualification exists in the supplied material.
+- **Remove an unsupported hedge when evidence resolves it:** If a verified capability specification confirms file comparison, “The tool may be able to compare files” → “The tool can compare files.” The evidence supports the stronger wording; the editor does not infer certainty from style alone.
+- **Keep genuine uncertainty:** “The sample may undercount weekend visits” retains its uncertainty when the available evidence leaves undercounting unresolved. Deleting **may** would invent a finding.
+
+### Meaning-preserving examples
+
+- “This matters because late requests miss the review.” → “Late requests miss the review.” The consequence survives the deletion.
+- “Looking ahead to June, we plan a review.” → “We plan a review for June.” Keep this as a plan, not an event that already happened.
+- “We need a dependable connection.” → “We need a reliable connection.” Preserve the requirement.
+- “The survey does not establish whether visits fell.” → “The survey gives no conclusive answer about whether visits fell.” Preserve the unresolved question; do not say that visits stayed constant or that the survey gives no evidence at all.
+- “The table may provide dates for the visits.” → “The table may list dates for the visits,” when the sentence refers to the table's contents. Keep **may** if the contents are genuinely uncertain; use a definite statement only when the evidence confirms them. Recast differently if the original means something else.
+- “This tool can provide a comparison of the files.” → “This tool can compare the files,” when the sentence describes its comparison capability. Here **can** conveys the specified capability; do not assert that the tool already compared them.
+- “It is not simply cost; timing also affects the choice.” → “Cost and timing both affect the choice.” Preserve both factors and the original scope.
+
+### Other cross-model review leads
+
+These previously supplied examples keep their existing status; the new mandatory list above concerns the named Claude and Astra phrases.
+
+| ID | Pattern | Existing treatment |
+|---|---|---|
+| M1.X1 | **delve**; figurative **landscape**; **absolutely**; **highly** | Contextual review for stock wording or unsupported intensification. Keep literal, technical, and warranted uses unless another house rule forbids them. |
+| M1.X2 | **rather than**; **not just** | **Rather than** already has an unconditional house ban. Review **not just** for empty contrast, preserving substantive meaning when recasting. |
+
+The [Opus 5.5 update](https://graphite.io/five-percent/research/ai-tells-opus-5-5-update) supplies the Claude examples and the Astra evidential-limit example; the [original report](https://graphite.io/five-percent/research/ai-tells) supplies the other Astra framing examples. The mandatory status comes from the user's instruction, not a claim that the studies prove each occurrence defective. The Python helper flags surface forms of C1–C3 and A1–A4. Formatting splits and complex topic frames still need manual review; matches require exemption and scope checks, not permission to retain an unprotected violation.
 
 ## Build a provisional profile only as useful
 
@@ -44,18 +75,17 @@ During review, keep a compact internal note of the candidate habit, exact locati
 
 When comparing samples quantitatively, report raw occurrences and denominators as well as length-normalized rates, such as occurrences per 1,000 prose words. Compare like with like. A different topic, era, prompt, language, or format can explain a difference. A ratio from a very small count is unstable; zero comparator occurrences do not imply certainty. Do not describe a phrase as overused relative to human writing without a suitable measured comparator. Without one, describe observed repetition or a specific reading problem.
 
-Published model/version lists can suggest candidates, but they neither replace text inspection nor authorize permanent new bans. Check the primary source, exact version, task, date, and comparison denominator before using a numerical result. Do not transfer a model-to-model ratio into a model-to-human assertion. Reassess a provisional profile after a model, prompt, or genre changes; use current evidence before carrying a habit forward. Do not make unsupported claims that this guide covers every future model.
+Published model/version lists can suggest candidates, but they neither replace text inspection nor authorize new bans by themselves. The user-selected mandatory list above is an explicit exception. Check the primary source, exact version, task, date, and comparison denominator before using a numerical result. Do not transfer a model-to-model ratio into a model-to-human assertion. Reassess a provisional profile after a model, prompt, or genre changes; use current evidence before carrying a habit forward. Do not make unsupported claims that this guide covers every future model.
 
 ## Make local repairs and keep effective choices
 
-The existing house bans still apply. Other M1–M3 findings require a concrete editorial reason, such as empty emphasis, obstructive formatting, ambiguity, or a distracting repeated template. Cite the M-code and exact span in editor proposals; retain the existing approval and baseline workflow. During initial composition, the writer can make these repairs internally. Never globally replace a candidate word or flatten an author's voice to match a population average.
+The existing house bans and mandatory C1–C3/A1–A4 list apply to every unprotected occurrence. Other M1–M3 findings require a concrete editorial reason, such as empty emphasis, obstructive formatting, ambiguity, or a distracting repeated template. Cite the M-code and exact span in editor proposals; retain the existing approval and baseline workflow. During initial composition, the writer can make these repairs internally. Never globally replace a candidate word or flatten an author's voice to match a population average.
 
-- **Empty importance announcement:** “This matters because late requests miss the review.” → “Late requests miss the review.” The deletion preserves the consequence. Keep an explicitly protected phrase and flag any conflict; elsewhere, retain an importance signpost when it helps the reader follow a needed explanation.
-- **Repeated evaluative adjective:** A report calls several unrelated choices **dependable** without explaining any of them. Remove an unsupported evaluation or use an already documented property. Do not invent reliability evidence or rotate through flattering synonyms. A justified evaluation may serve the passage, but **dependable** still follows the selected usage preference for **reliable** or **trustworthy**, except in protected text.
+- **Repeated evaluative adjective:** A report calls several unrelated choices **dependable** without explaining any of them. Remove an unsupported evaluation or use an already documented property. Do not invent reliability evidence or rotate through flattering synonyms. A justified evaluation may serve the passage, but **dependable** requires a recast under the mandatory ban, except in protected text.
 - **Formatting without a job:** A short email puts one sentence beneath each of three headings and bolds its opening words. Remove only redundant markup when the sentences already form a clear message. Keep headings in a longer reference document and bullets that separate actual actions. Preserve meaning, order, emphasis, and any requested format.
 - **Repeated framing across sections:** Each section ends by announcing its importance and restating its topic. Delete a redundant closing line where its content already occurs; retain a closing sentence that adds a supported consequence or necessary transition. Do not move the same stock line to every opening.
 - **Mechanical rhythm:** Several adjacent sentences use identical subject–verb openings and two-clause endings. Change only obstructive repetitions by moving a phrase, joining a genuinely shared thought, or splitting an overloaded clause. Preserve the logical relations. Keep parallel instructions such as “Open the file. Check the date. Save a copy.”
-- **Necessary uncertainty:** Keep “The sample may undercount weekend visits” when the evidence permits undercounting but does not confirm it. A recurring hedge can be accurate. Remove or recast only empty defensive framing, preserving the same evidential force.
+- **Necessary uncertainty:** Keep “The sample may undercount weekend visits” when the evidence permits undercounting but does not confirm it. Keep this limit because deleting it would invent a finding. Delete gratuitous or repeated caveats that add no needed limit; preserve a hedge only when it passes the necessity test above.
 
 ## Recheck the editor's own habits
 
@@ -67,4 +97,4 @@ Do not manufacture human traits by adding random punctuation, exclamations, slan
 
 Graphite's [original study](https://graphite.io/five-percent/research/ai-tells) compares 10,000 historical human web articles with 90,000 generated articles across nine models; its complete-topic analysis uses 9,984 topics. Its [Opus 5.5 update](https://graphite.io/five-percent/research/ai-tells-opus-5-5-update) adds a tenth model and uses 9,974 aligned topics. Reported vocabulary and framing preferences vary by model and version. These findings motivate an adaptable review rather than a fixed universal tell list.
 
-Both reports concern corpus differences under a fixed generation prompt. Genre, historical comparison, prompt, and tested versions limit transfer; mannered-prose ratings use a model judge. They do not validate this editorial procedure or prove authorship, comprehension, or quality for an individual passage. The prompt requested plain text without Markdown. M2's detailed Markdown checks are editorial extensions based on reader needs, not measured Markdown fingerprints from this study. M1–M3 are contextual operational checks, not additional absolute word bans or an automated classifier.
+Both reports concern corpus differences under a fixed generation prompt. Genre, historical comparison, prompt, and tested versions limit transfer; mannered-prose ratings use a model judge. They do not validate this editorial procedure or prove authorship, comprehension, or quality for an individual passage. The prompt requested plain text without Markdown. M2's detailed Markdown checks are editorial extensions based on reader needs, not measured Markdown fingerprints from this study. General M1–M3 checks remain contextual. The user-selected C1–C3/A1–A4 bans are mandatory editorial preferences, not a validated classifier or a research finding that every use is defective.
