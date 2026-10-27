@@ -31,6 +31,7 @@ The editor defaults to numbered OLD/NEW suggestions. It applies approved changes
 - Preserve facts, uncertainty, logical conditions, quotations, names, protected wording, and accepted terminology.
 - Review sentence and paragraph construction, grammar, punctuation, usage, spelling, and clear referents.
 - Flag empty rhetorical templates, vague abstractions, and redundant summaries.
+- Review recurring vocabulary, formatting, and rhythm across models, using observed text and suitable reference samples; recheck for habits introduced by repairs.
 - Check helpful clause markers, embedded clauses, distant related words, opaque noun strings, improvised verbs, strained personification, and compressed invented labels.
 
 This is an opinionated house style. It requires active voice in new prose and proposed replacements, permits useful repetition, and retains specific word, punctuation, and usage preferences. Protected text has explicit exceptions. Adapt the editorial guide if your preferences differ.
@@ -44,12 +45,13 @@ python3 scripts/check_style.py draft.md --json
 python3 scripts/check_style.py revised.md --baseline original.md --json
 ```
 
-It reports candidates and descriptive sentence statistics. It does not apply edits, certify style compliance, determine authorship, or syntactically detect the six reader-processing checks. Those checks require contextual editorial review.
+It reports candidates and descriptive sentence statistics. It does not apply edits, certify style compliance, determine authorship, or syntactically detect the six reader-processing checks. Those checks require contextual editorial review. Model profiles and Markdown layout also require contextual review; the helper does not infer them.
 
 ## Guide structure
 
 - [Skill workflow](SKILL.md)
 - [Editorial review](references/editorial-guide.md)
+- [Style habits across models](references/model-style-review.md)
 - [Grammar and form](references/grammar-and-form.md)
 - [Usage and spelling](references/usage-lookup.md)
 - [Revision handling](references/revision-workflow.md)
@@ -57,6 +59,6 @@ It reports candidates and descriptive sentence statistics. It does not apply edi
 
 ## Sources
 
-The guidance synthesizes writing principles from William Strunk Jr.'s *The Elements of Style*, revised by Chris Hong, author-supplied editorial preferences, and contextual applications of [Clark, Martin, and Mahowald's readability study](https://arxiv.org/abs/2610.29162). [Book-to-skill](https://github.com/virgiliojr94/book-to-skill) supported the extraction and conversion workflow.
+The guidance synthesizes writing principles from William Strunk Jr.'s *The Elements of Style*, revised by Chris Hong, author-supplied editorial preferences, and contextual applications of [Clark, Martin, and Mahowald's readability study](https://arxiv.org/abs/2610.29162). [Graphite's AI Tells research](https://graphite.io/five-percent/research/ai-tells) also informs the contextual review of recurring habits; detailed Markdown checks are editorial extensions. [Book-to-skill](https://github.com/virgiliojr94/book-to-skill) supported the extraction and conversion workflow.
 
 The repository contains operational instructions and original examples. It excludes the source PDFs, raw extractions, private drafts, and local test artifacts. The study motivates contextual checks; it does not validate this checklist through a new human comprehension experiment.

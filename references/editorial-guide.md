@@ -152,6 +152,10 @@ Delete a sentence only when its removal loses no meaning; explain what it repeat
 
 Measure sentence-length spread before and after substantial rounds. Preserve broad natural variation where the author has it, including short and long sentences. The source's historical averages and under-eight/over-forty examples describe an author's rhythm; they are not quotas for every email or paragraph. Do not insert padding, fragments, mistakes, or needless length to manufacture variation. Devices such as “But,” “So,” “And,” “Still,” first person, merging, and splitting should follow the thought and should not become replacement templates.
 
+## Review habits across models
+
+During a full review, follow [the model-independent style review](model-style-review.md) for recurring vocabulary and framing (M1), formatting and organization (M2), and syntax and rhythm (M3). Use the actual text and suitable reference samples; a model name alone cannot diagnose a defect. Check for new habits introduced by repairs. These contextual checks supplement all existing bans and patterns.
+
 ## Detector reports
 
 Use a supplied report only within the requested task. Match its flagged passages to the current draft using exact or carefully verified near-exact correspondence. Target only currently unchanged flagged text; report uncertain matches, counts, and sections already being revised. Preserve disclosures of AI assistance. A score or label is not evidence about who wrote a passage.
