@@ -32,7 +32,7 @@ A surgical repair may span two or more adjacent sentences when their relationshi
 
 Before: “We plan to release the tool in June. Reviewers can use it to compare documents side by side. The pilot has not confirmed time savings.”
 
-After: “We plan a June release for the tool, which lets reviewers compare documents side by side as they check revisions. The pilot results still leave us unsure whether the tool saves them time.”
+After: “We plan a June release for the tool, which lets reviewers compare documents side by side as they check revisions. The pilot results still leave us uncertain about whether the tool saves them time.”
 
 The relative clause links the release to the tool's function, and the final sentence addresses the unresolved benefit required by this brief. A simple launch announcement with no need to assess time savings would not automatically need that caveat; apply Q1 to the actual purpose. The plan stays a plan, the capability stays verified, and the result stays uncertain. This is a contextual example of connected development, not a fixed paragraph formula.
 
@@ -59,11 +59,14 @@ Check clause boundaries, modifier attachment, related-word proximity, parallel g
 
 Check P1–P6 during an audit, when proposing or applying surgical edits, and during the writer's final self-review. Diagnose a real reading obstacle in context; a construction is not defective merely because it matches a category. Use the smallest repair that removes the obstacle and keep surrounding wording. Preserve facts, actor roles, chronology, uncertainty, emphasis, protected text, and technical meaning. Re-read the repaired sentence in its paragraph. In propose mode, give the exact OLD/NEW span and the relevant P-code; apply only approved edits to adopted text.
 
-### P1 Helpful clause markers
+### P1 Helpful clause and relation markers
 
-Watch for omitted **that** or another optional grammatical signpost when the reader could initially parse the wrong clause boundary. Retain or insert the marker where it helps. Do not insert it in every eligible sentence or delete it merely to save a word.
+Retain or restore small grammatical words when they make the relationship easier to follow, even when omission is grammatical. Check optional **that**, relation-marking prepositions such as **about**, **of**, **to**, and **for**, articles, auxiliaries, and conjunctions. A word can help the reader parse a relationship without adding a new fact. Do not strip that help merely to shorten a sentence or treat it as a gratuitous qualification under Q1.
 
-Example: “The memo the manager sent explains the delay.” → “The memo that the manager sent explains the delay.” The smallest change is the insertion of **that**. Keep a clear unmarked clause when the marker adds no reading benefit.
+- **Clause boundary:** “The memo the manager sent explains the delay.” → “The memo that the manager sent explains the delay.” Insert **that** when it helps the reader follow the clause; retain an already clear unmarked clause where appropriate.
+- **Relation and academic register:** “The pilot results still leave us unsure whether the tool saves them time.” → “The pilot results still leave us uncertain about whether the tool saves them time.” **About** makes the relation explicit. The user generally prefers **uncertain** over **unsure** in academic prose; this is a register preference, not a universal ban on **unsure**. Preserve the same degree of uncertainty.
+
+Apply the same judgment to other function words. Preserve an article's definiteness, an auxiliary's tense or modality, and a connective's actual logical relation. Restore a missing preposition only when the intended relation is known; use P3 for ambiguous noun strings. Do not add every optional word, invent a causal or temporal connection, or make prose ceremonious. Prefer the fuller phrasing when it helps this reader follow the thought.
 
 ### P2 Embedded clauses and distant related words
 

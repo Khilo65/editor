@@ -34,9 +34,11 @@ The editor defaults to numbered OLD/NEW suggestions. It applies approved changes
 - Flag empty rhetorical templates, vague abstractions, and redundant summaries.
 - Remove unnecessary qualifications even once. Keep or recast a limit only when omission would mislead, overstate evidence, or change a relevant condition; apply [Q1](references/model-style-review.md#q1-keep-only-necessary-qualifications).
 - Review recurring vocabulary, formatting, and rhythm across models, using observed text and suitable reference samples; recheck for habits introduced by repairs.
-- Check helpful clause markers, embedded clauses, distant related words, opaque noun strings, improvised verbs, strained personification, and compressed invented labels.
+- Check helpful clause and relation words, embedded clauses, distant related words, opaque noun strings, improvised verbs, strained personification, and compressed invented labels.
 
 This is an opinionated house style. It requires active voice in new prose and proposed replacements, permits useful repetition, and enforces specific word, punctuation, and usage preferences, including the [named Claude/Astra phrase bans](references/model-style-review.md#mandatory-claude-and-astra-phrase-bans). Those phrases require a local recast even once; preserve meaning and genuine uncertainty. Protected text has explicit exceptions. Adapt the editorial guide if your preferences differ.
+
+This skill and Writing-style now serve as the current prose/editing authority. Keep specialist methods and task knowledge, but let these guides control the wording. Declaring this precedence does not uninstall or disable other skills.
 
 ## Optional checker
 

@@ -64,7 +64,7 @@ MANUAL_CHECKS = [
     'A10.11 jargon replacing substance', 'A10.12 vague relations',
     'A10.13 stock academic phrases', 'A11 actor/object/antecedent clarity',
     'A12 meaning-preserving redundancy cuts and authorial rhythm',
-    'P1 helpful optional clause markers',
+    'P1 helpful clause and relation markers, including useful optional function words',
     'P2 embedded clauses and distant related words',
     'P3 opaque noun strings',
     'P4 improvised noun-to-verb conversions',

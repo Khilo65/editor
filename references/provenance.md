@@ -248,7 +248,7 @@ Source: Thomas Hikaru Clark, Matias B. Martin, and Kyle Mahowald, *Why is AI-gen
 
 | Check | Evidence and operational use |
 |---|---|
-| P1 Helpful clause markers | Optional-relativizer measurements and compression experiment, pp. 3, 5, 7–8. Restore helpful markers in context, not mechanically. |
+| P1 Helpful clause and relation markers | Optional-relativizer measurements and compression experiment, pp. 3, 5, 7–8. Restore helpful markers in context. The broader function-word and academic-register guidance comes from the user's 27 October 2026 clarification, not a separately validated study result. |
 | P2 Embedded clauses and related-word distance | Object-relative and dependency-distance rationale, pp. 3–4; metric details, pp. 16–18. Extends related-word proximity and overload checks. No universal sentence-length cap follows. |
 | P3 Opaque noun strings | Noun-compound ambiguity and results, pp. 4–5. Extends the existing compressed-referent check; preserve familiar terminology. |
 | P4 Improvised noun-to-verb conversions | Denominal-verb rationale, p. 4. The paper separates conventional uses from ad hoc innovation. |
@@ -268,3 +268,9 @@ Consistency review on 26 October 2026 aligned the entrypoints, usage decisions, 
 ## Paragraph development and continuity
 
 FLOW makes the full-paragraph review explicit after local repairs. Its source principles are the book's paragraph unity and development (rules 9–10, PDF pp. 26–33), necessary wording without uniformly short sentences (rule 13, pp. 40–42), sentence variety (rule 14, pp. 43–44), and emphasis (rule 18, pp. 53–54). The operational procedure and worked example are editorial synthesis. Useful repetition follows the user's explicit preference; no automatic closing recap is required. FLOW supplements the mandatory phrase bans and Q1 without weakening them. It permits a connected proposal across adjacent sentences while preserving facts, logical relations, author decisions, and approval scope. The read-only checker cannot assess paragraph development; contextual review is required.
+
+## Current authority and helpful function words
+
+On 27 October 2026, the user designated Editor and Writing-style as the current authority over older general prose and editing guidance. Specialist methods, project custody, channel strategy, and document tooling keep their domain roles; older style shortcuts yield to this pair. This precedence does not delete or disable older installed skills.
+
+The user also broadened P1 beyond **that**: retain optional function words that help a reader follow the relationship, including **about** in **uncertain about whether**. Such words are not unnecessary qualifications merely because they add no new fact. The user generally prefers **uncertain** to **unsure** for academic register. These are contextual readability/register instructions, with meaning, protected wording, and Q1 intact; they do not make either construction ungrammatical or require every optional word.
