@@ -31,6 +31,7 @@ The editor defaults to numbered OLD/NEW suggestions. It applies approved changes
 - Preserve facts, uncertainty, logical conditions, quotations, names, protected wording, and accepted terminology.
 - Review sentence and paragraph construction, grammar, punctuation, usage, spelling, and clear referents.
 - Recheck [paragraph development and flow](references/editorial-guide.md#flow-develop-a-connected-paragraph) after local repairs, connecting supported ideas without flattening prose into short declarations.
+- Complete a [passage-by-passage review](references/review-checklist.md), including reader knowledge, substantive explanation, repeated modal framing, and unchanged in-scope prose.
 - Flag empty rhetorical templates, vague abstractions, and redundant summaries.
 - Remove unnecessary qualifications even once. Keep or recast a limit only when omission would mislead, overstate evidence, or change a relevant condition; apply [Q1](references/model-style-review.md#q1-keep-only-necessary-qualifications).
 - Review recurring vocabulary, formatting, and rhythm across models, using observed text and suitable reference samples; recheck for habits introduced by repairs.
@@ -55,6 +56,7 @@ It reports candidates and descriptive sentence statistics. It does not apply edi
 
 - [Skill workflow](SKILL.md)
 - [Editorial review](references/editorial-guide.md)
+- [Required review completion checklist](references/review-checklist.md)
 - [Style habits across models](references/model-style-review.md)
 - [Grammar and form](references/grammar-and-form.md)
 - [Usage and spelling](references/usage-lookup.md)

@@ -4,6 +4,8 @@
 
 Read the whole document or the whole requested part before diagnosing it. Include relevant notes, table cells, headings, and citations. Do not claim a complete audit of text you could not read. Ask only when the authoritative version or intended scope cannot be resolved safely.
 
+For a commented or tracked Word document, extract all in-scope comments with their anchors and enough surrounding text. Review a coherent current-text projection with insertions included and deletions excluded; do not diagnose concatenated deleted and inserted wording as the author's sentence. When reviewing the quality of edits, compare the relevant pre-edit and current projections. Account for each comment as addressed, protected, unresolved, or outside scope, giving the reason. Treat comments as author feedback in context, not permission to apply every suggested change or evidence that a grammatical diagnosis is correct. Readability concerns can be valid even when the named grammatical category is inaccurate. Flag missing or ambiguous anchors instead of guessing.
+
 Default to proposals. An audit-only request produces findings and counts without editing. A proposal request produces exact OLD/NEW items and preserves the source. Apply an existing approval without asking for it again. Mixed requests can approve some items, reject others, and ask for revised proposals; maintain their separate statuses. An exploratory question authorizes an answer, not a document change.
 
 ## Record proposed edits

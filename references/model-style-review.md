@@ -20,6 +20,8 @@ A single draft supports findings about that draft. Multiple independent outputs 
 
 For M1, inspect recurring frames as well as exact strings. A passage can repeat an empty move without repeating the same three words. For M2, choose paragraphs, headings, lists, and tables by their function; do not replace every list with prose. For M3, sentence-length statistics can locate passages to read, but syntax and cadence require contextual judgment. Neither uniformity nor variation alone determines quality.
 
+Use the [modal review](review-checklist.md#review-modals-without-rotating-synonyms) for necessity and repeated framing. A proposed plan does not require repeating **would** in every sentence, and a true possibility does not excuse a paragraph built from the same template. Preserve the needed meaning through structural repairs; do not rotate modal synonyms or strengthen uncertain statements.
+
 ## Mandatory Claude and Astra phrase bans
 
 The user explicitly made C1–C3 and A1–A4 **mandatory house bans** on 26 October 2026. Apply them case-insensitively to every occurrence in unprotected new prose, proposed replacements, and headings, even when the phrase occurs once or expresses something useful. No generating-model identification or repeated-use finding is needed. Recast the wording while retaining its substance. First remove any unnecessary qualification; preserve a qualification only when its removal would materially mislead the reader, overstate the evidence, or change a relevant condition. The historical model labels explain the source of the list, not who wrote a passage.

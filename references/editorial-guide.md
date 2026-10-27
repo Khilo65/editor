@@ -122,7 +122,7 @@ Mechanical word matching needs contextual review. The source both mentions deriv
 
 ## Check coherence and continuity
 
-Start each prose paragraph with a topic sentence stating its point, not a question. Keep one coherent idea per paragraph. Introduce unfamiliar people, organizations, events, and terms at first use for the actual audience. For an exchange or bargain, name who gives what and who receives what. Split overloaded sentences where their logic becomes hard to follow. Do not turn every long sentence into two medium ones.
+Orient the reader to each paragraph's point or action. Explanatory prose usually benefits from a substantive topic sentence; narrative can open with an actor or event. Avoid empty announcements and question-only setups; do not force every opening into the same declarative template. Keep one coherent idea per paragraph. Introduce unfamiliar people, organizations, events, and terms at first use for the actual audience. For an exchange or bargain, name who gives what and who receives what. Split overloaded sentences where their logic becomes hard to follow. Do not turn every long sentence into two medium ones.
 
 Apply [Q1, qualification necessity](model-style-review.md#q1-keep-only-necessary-qualifications): delete gratuitous caveats, even a single occurrence. Retain a limit only when omission would materially mislead, overstate the evidence, or change a relevant condition. State a necessary limit once within its explanation. Keep episodes and dates in intelligible order and end on evidence, substantive development, or consequence. Remove empty images and redundant verdicts. Give each substantive point one home; search nearby passages before adding another occurrence.
 
@@ -182,6 +182,10 @@ Measure sentence-length spread before and after substantial rounds. Preserve bro
 ## Review habits across models
 
 During a full review, follow [the model-independent style review](model-style-review.md) for recurring vocabulary and framing (M1), formatting and organization (M2), and syntax and rhythm (M3). Use the actual text and suitable reference samples; a model name alone cannot diagnose a defect. Check for new habits introduced by repairs. The named Claude/Astra phrase bans are mandatory; other model-style checks remain contextual. They supplement all existing bans and patterns.
+
+## Complete the review
+
+Complete the required [review checklist](review-checklist.md), including the modal-necessity review and whole-scope reread. A necessary modal does not exempt a repetitive paragraph structure; grammatical active voice does not certify a concrete or readable sentence. Replacements must resolve the underlying obstacle, not merely exchange its vocabulary.
 
 ## Detector reports
 
