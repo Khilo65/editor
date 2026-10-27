@@ -14,6 +14,28 @@ Open explanatory paragraphs with their actual point, then develop it through sup
 
 For example, when the board's decision is the point, “The board approved the repairs after a long debate” can become “After a long debate, the board approved the repairs.” Move only the timing phrase. If the debate is the intended emphasis, keep the original order. Emphasis depends on the surrounding paragraph; the editor should not move phrases mechanically.
 
+### FLOW Develop a connected paragraph
+
+Review the paragraph as a whole before proposing a repair and again after local fixes. A passage must develop a thought the reader can follow. Correct grammar and the absence of banned phrases do not suffice when the result reads like disconnected notes.
+
+- **Follow the development.** Identify the paragraph's point or action, then check what each sentence adds: explanation, evidence, an example, a necessary limit, a consequence, or the next event. Give the reader enough context to follow the progression. These are possible functions, not a mandatory sequence or a template for every paragraph.
+- **Connect given and new information.** Carry a clear subject, referent, or needed term from one sentence into the next before introducing another topic. Retain useful repetition, articles, pronouns, and clause markers that help the reader follow the relation. Explain a supported connection where the reader would otherwise have to reconstruct it.
+- **Shape sentences to the thought.** Combine related short statements, subordinate a supporting detail, or move a phrase when that makes the relation clearer. Keep a short sentence for a real emphasis or action. Avoid both a string of clipped declarations and an overloaded chain of clauses. Match the author's tone and genre instead of making all prose terse.
+- **Use transitions for their meaning.** A connector, shared subject, relative clause, or reordered detail can express the relation. Use only relationships supported by the source. Joining facts does not authorize inventing a cause, chronology, contrast, intention, or outcome. Never add a stock transition merely to disguise a gap in the argument.
+- **Read across boundaries.** Check how the paragraph follows the preceding one and where it leaves the reader. Let the ending finish the actual development; do not append a slogan, redundant recap, or automatic caveat. Keep a necessary limit where it qualifies the relevant assertion, under Q1.
+
+Accept the passage only when the reader can follow why each sentence comes next and how the paragraph advances its purpose. Sentence-length statistics cannot make that judgment. If the source lacks the substance needed for a connection, flag the gap instead of manufacturing a bridge. Procedural steps and concise notices can appropriately use short, parallel sentences; no universal sentence-length target or compulsory narrative arc applies.
+
+A surgical repair may span two or more adjacent sentences when their relationship is the problem. Propose the smallest connected span that fixes that relationship, leaving effective surrounding material alone. For existing text, keep the approval boundary: a newly needed join or reorder requires a new or revised proposal; it cannot silently expand an already approved replacement.
+
+**Worked example.** The task is an evaluation update covering the release plan, verified function, and evidence about review time. Assume a June release is a plan, the tool's comparison capability is verified, reviewers use it when checking revisions, and the pilot leaves its effect on review time unresolved.
+
+Before: “We plan to release the tool in June. Reviewers can use it to compare documents side by side. The pilot has not confirmed time savings.”
+
+After: “We plan a June release for the tool, which lets reviewers compare documents side by side as they check revisions. The pilot results still leave us unsure whether the tool saves them time.”
+
+The relative clause links the release to the tool's function, and the final sentence addresses the unresolved benefit required by this brief. A simple launch announcement with no need to assess time savings would not automatically need that caveat; apply Q1 to the actual purpose. The plan stays a plan, the capability stays verified, and the result stays uncertain. This is a contextual example of connected development, not a fixed paragraph formula.
+
 ## Review sentence construction
 
 Use the actual actor and a direct verb. Remove empty predicates, nominalizations, and there-is openings when they obscure the action. An active-voice requirement never permits inventing an actor. Keep meaningful negatives and qualifications; positive phrasing must preserve the original logical scope.
@@ -29,7 +51,7 @@ Cut words that add no information, not words the reader needs to understand the 
 
 ### Vary recurring sentence structures
 
-When several adjacent sentences all use two coordinated clauses, change only enough of them to remove the mechanical rhythm. For example, in a paragraph that repeatedly follows **X happened, and Y happened**, “The meeting ended, and the staff left” can become “The meeting ended. The staff left.” Other sentences may retain their original shape. Do not substitute **because**, **although**, or another more specific relation unless the source supports it. Keep an isolated clear two-clause sentence and useful grammatical parallelism.
+When several adjacent sentences all use two coordinated clauses, change only enough of them to remove the mechanical rhythm. Read the paragraph under FLOW before deciding whether joining, subordination, reordering, or splitting serves its meaning; splitting is not the default repair. For example, in a paragraph that repeatedly follows **X happened, and Y happened**, “The meeting ended, and the staff left” can become “The meeting ended. The staff left.” Other sentences may retain their original shape. Do not substitute **because**, **although**, or another more specific relation unless the source supports it. Keep an isolated clear two-clause sentence and useful grammatical parallelism.
 
 Check clause boundaries, modifier attachment, related-word proximity, parallel grammar, tense, and attribution using [grammar and form](grammar-and-form.md). Consult [usage and spelling](usage-lookup.md) for lexical decisions.
 

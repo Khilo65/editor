@@ -30,6 +30,7 @@ The editor defaults to numbered OLD/NEW suggestions. It applies approved changes
 
 - Preserve facts, uncertainty, logical conditions, quotations, names, protected wording, and accepted terminology.
 - Review sentence and paragraph construction, grammar, punctuation, usage, spelling, and clear referents.
+- Recheck [paragraph development and flow](references/editorial-guide.md#flow-develop-a-connected-paragraph) after local repairs, connecting supported ideas without flattening prose into short declarations.
 - Flag empty rhetorical templates, vague abstractions, and redundant summaries.
 - Remove unnecessary qualifications even once. Keep or recast a limit only when omission would mislead, overstate evidence, or change a relevant condition; apply [Q1](references/model-style-review.md#q1-keep-only-necessary-qualifications).
 - Review recurring vocabulary, formatting, and rhythm across models, using observed text and suitable reference samples; recheck for habits introduced by repairs.
@@ -46,7 +47,7 @@ python3 scripts/check_style.py draft.md --json
 python3 scripts/check_style.py revised.md --baseline original.md --json
 ```
 
-It reports candidates and descriptive sentence statistics. It does not apply edits, certify style compliance, determine authorship, or syntactically detect the six reader-processing checks. Those checks require contextual editorial review. The helper also flags the named mandatory phrase bans, subject to protected-text and scope checks. Those checks do not make an applicable ban optional. The report lists Q1 and completion of phrase review as manual requirements, including when no regex matches. Model profiles and Markdown layout require contextual review; the helper does not infer them.
+It reports candidates and descriptive sentence statistics. It does not apply edits, certify style compliance, determine authorship, or syntactically detect the six reader-processing checks. Those checks require contextual editorial review. The helper also flags the named mandatory phrase bans, subject to protected-text and scope checks. Those checks do not make an applicable ban optional. The report lists Q1 and completion of phrase review as manual requirements, including when no regex matches. Paragraph development also requires contextual reading; a zero-match report does not certify flow. Model profiles and Markdown layout require contextual review; the helper does not infer them.
 
 ## Guide structure
 

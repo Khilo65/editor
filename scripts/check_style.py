@@ -72,6 +72,7 @@ MANUAL_CHECKS = [
     'P6 unfamiliar compressed labels',
     'Q1 remove unnecessary qualifications even once; retain only necessary limits and genuine uncertainty',
     'M1 complete mandatory-phrase review, including formatting splits and complex topic frames',
+    'FLOW paragraph development, supported sentence links, and cadence after local repairs',
 ]
 
 
@@ -261,6 +262,7 @@ def analyze(text: str, baseline: str | None = None) -> dict:
                   'All contextual checks below still require a full-document reading even when a related heuristic matched.',
                   'P1-P6 are manual reader-processing checks; this helper does not syntactically detect them.',
                   'Named Claude/Astra bans use surface matching; formatting splits and complex why-topic-matters frames need manual review. Broader model profiling and layout checks remain manual.',
+                  'Paragraph development and narrative flow require contextual reading; sentence statistics and a zero-match report cannot certify them.',
               ], 'manual_checks_required': MANUAL_CHECKS}
     if baseline is not None:
         result['baseline_sha256'] = hashlib.sha256(baseline.encode('utf-8')).hexdigest()

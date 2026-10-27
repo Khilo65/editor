@@ -91,7 +91,7 @@ The existing house bans and mandatory C1–C3/A1–A4 list apply to every unprot
 
 ## Recheck the editor's own habits
 
-Compare repaired passages with the internal draft or approved baseline. Check the whole relevant text, including headings and endings, for new repeated substitutes, identical actor-first openings, unnecessary splitting, rhythmic punchlines, or a stock repair formula. Retain correct repairs; change only new defects. Stop when the requested scope meets the rules and the reading problem is resolved, not when a score or word-distribution target is reached.
+Complete [FLOW, paragraph development](editorial-guide.md#flow-develop-a-connected-paragraph), after local ban and Q1 repairs; neither shortest wording nor a zero-match checker report is sufficient. Compare repaired passages with the internal draft or approved baseline. Check the whole relevant text, including headings and endings, for new repeated substitutes, identical actor-first openings, unnecessary splitting, rhythmic punchlines, or a stock repair formula. Retain correct repairs; change only new defects. Stop when the requested scope meets the rules and the reading problem is resolved, not when a score or word-distribution target is reached.
 
 Do not manufacture human traits by adding random punctuation, exclamations, slang, spelling errors, fictional experience, anecdotes, or unsupported detail. Do not force contractions, first person, parenthetical asides, synonym variety, or a sentence-length quota. Do not remove accurate numbers, useful repetition, or genuine uncertainty to resemble a corpus. The user's absolute active-voice requirement, punctuation restrictions, protected-text exceptions, and approval rules keep their priority.
 
